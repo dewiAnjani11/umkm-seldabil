@@ -43,11 +43,11 @@ export default function CreateProdukPage() {
     return (
         <Layouts>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <div>
+                {/* <div>
                     <label className="form-label">Nama</label>
                     <input {...register("nama")} type="text" className="form-control" />
-                </div>
-                {/* <div>
+                </div> */}
+                <div>
                     <label className="form-label">Nama Produk</label>
                     <input {...register("nama")} type="text" className="form-control" />
                 </div>
@@ -98,7 +98,7 @@ export default function CreateProdukPage() {
                 <div className="mt-3">
                     <label className="form-label">Deskripsi</label>
                     <textarea {...register("deskripsi")} className="form-control"></textarea>
-                </div> */}
+                </div>
                 <button type="submit" className="btn btn-primary my-4">Tambah</button>
             </form>
         </Layouts>

@@ -18,7 +18,7 @@ const Categories = () => {
       const resp = await axios.get(`http://localhost:1337/api/produks?populate=*&filters[kategori][nama][$eq]=${catNames}`)
       if (resp.status === 200) {
         setTimeout(() => {
-          setData(resp.data.data)
+          setData(resp.data.data);
           setMeta(resp.data.meta.pagination)
         }, 500);
       } else {
@@ -65,7 +65,7 @@ const Categories = () => {
                       {foto ? (
                         <img src={`http://localhost:1337${foto.attributes.formats.small.url}`} className="card-img-top w-100" />
                       ) : (
-                        <img src={`https://www.buwelldrillers.co.nz/assets/camaleon_cms/image-not-found-4a963b95bf081c3ea02923dceaeb3f8085e1a654fc54840aac61a57a60903fef.png`} className="card-img-top" />
+                        <img src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjmShM7-kNHf5kT6L2xWZDEJkXZ456TfFWyO49MJePmA&s`} className="card-img-top" />
                       )}
                       <div className="card-body px-2">
                         <h5 className="card-title mb-0 text-capitalize">{datas.nama}</h5>
@@ -78,7 +78,7 @@ const Categories = () => {
                         <p className='mb-1 fw-bold'>Rp. {datas.harga}</p>
                         <div className='d-flex justify-content-start align-items-center w-100'>
                           <i className="fa-solid fa-shop me-1" style={{ fontSize: "13px" }}></i>
-                          <p className='mb-0 fw-bold text-capitalize' style={{ fontSize: "13px" }}>{datas.toko.data.attributes.nama}</p>
+                          <p className='mb-0 fw-bold text-capitalize' style={{ fontSize: "13px" }}>{datas.nama_toko}</p>
                           <p className='mb-0 card-text text-capitalize' style={{ fontSize: "13px" }}>| {datas.toko.data.attributes.alamat}</p>
                         </div>
                         <div className='d-flex justify-content-between align-items-center w-25 mt-2'>
@@ -116,7 +116,7 @@ const Categories = () => {
                       {foto ? (
                         <img src={`http://localhost:1337${foto.attributes.url}`} className="card-img-top w-100 " />
                       ) : (
-                        <img src={`https://www.buwelldrillers.co.nz/assets/camaleon_cms/image-not-found-4a963b95bf081c3ea02923dceaeb3f8085e1a654fc54840aac61a57a60903fef.png`} className="card-img-top" />
+                        <img src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjmShM7-kNHf5kT6L2xWZDEJkXZ456TfFWyO49MJePmA&s`} className="card-img-top" />
                       )}
                       <div className="card-body px-2">
                         <h5 className="card-title mb-0 text-capitalize">{datas.nama}</h5>
@@ -129,8 +129,8 @@ const Categories = () => {
                         <p className='mb-1 fw-bold'>Rp. {datas.harga}</p>
                         <div className='d-flex justify-content-start align-items-center w-100'>
                           <i className="fa-solid fa-shop me-1" style={{ fontSize: "13px" }}></i>
-                          <p className='mb-0 fw-bold text-capitalize' style={{ fontSize: "13px" }}>{datas.toko.data.attributes.nama}</p>
-                          <p className='mb-0 card-text text-capitalize' style={{ fontSize: "13px" }}>| {datas.toko.data.attributes.alamat}</p>
+                          <p className='mb-0 fw-bold text-capitalize' style={{ fontSize: "13px" }}>{datas.nama_toko}</p>
+                          <p className='mb-0 card-text text-capitalize' style={{ fontSize: "13px" }}>| {datas.alamat_toko}</p>
                         </div>
                         <div className='d-flex justify-content-between align-items-center w-25 mt-2'>
                           {elements}
@@ -145,7 +145,7 @@ const Categories = () => {
           </div>
         )}
 
-        {/* <nav aria-label="page navigation example" className='w-100 d-flex justify-content-center' style={{
+        <nav aria-label="page navigation example" className='w-100 d-flex justify-content-center' style={{
           background: "transparent"
         }}>
           <ul className="pagination">
@@ -173,7 +173,7 @@ const Categories = () => {
               </a>
             </li>
           </ul>
-        </nav> */}
+        </nav>
 
       </div>
       <Footer />
