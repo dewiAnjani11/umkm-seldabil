@@ -15,11 +15,46 @@ export default function CreateProdukPage() {
         }
     }
 
+    const [namaProduk, setNamaProduk] = useState('');
+    const [deskripsi, setDeskripsi] = useState('');
+    const [harga, setHarga] = useState(0);
+    const [brand, setBrand] = useState('');
+    const [terjual, setTerjual] = useState(0);
+    const [rating, setRating] = useState(0);
+    const [stock, setStock] = useState(0);
+    const [minimalPembelian, setMinimalPembelian] = useState(0);
+    const [namaToko, setNamaToko] = useState('');
+    const [kategori, setKategori] = useState('minuman');
+    // const [promo, setPromo] = useState(0);
+    const [berat, setBerat] = useState(0);
+
     const { register, handleSubmit } = useForm();
-    const onSubmit = async (data) => {
+    const onSubmit = async () => {
         try {
+            console.log('proses post...');
+            const dataToSend = {
+                "data" :
+                {
+                    "nama" : namaProduk,
+                    "deskripsi" : deskripsi,
+                    "harga" : harga,
+                    "brand" : brand,
+                    "terjual" : terjual,
+                    "rating" : rating,
+                    "stock" : stock,
+                    "minPembelian" : minimalPembelian,
+                    "nama_Toko" : namaToko,
+                    "kategori" : {
+                        "data" : {
+                            "nama" : kategori
+                        }
+                    },
+                    "berat" : berat,
+                }
+            }
+
             const baseURL = 'http://localhost:1337/api/produks';
-            const response = await axios.post(baseURL, data);
+            const response = await axios.post(baseURL, dataToSend);
             console.log(response.data);
         } catch (error) {
             if (error.response) {
@@ -49,55 +84,79 @@ export default function CreateProdukPage() {
                 </div> */}
                 <div>
                     <label className="form-label">Nama Produk</label>
-                    <input {...register("nama",{required:true})} type="text" className="form-control" />
+                    <input {...register("nama",{required:true})} type="text" className="form-control"
+                    onChange={(e)=>setNamaProduk(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Deskripsi</label>
-                    <textarea {...register("deskripsi",{required:true})} className="form-control"></textarea>
+                    <textarea {...register("deskripsi",{required:true})} className="form-control"
+                    onChange={(e)=>setDeskripsi(e.target.value)}
+                    ></textarea>
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Harga</label>
-                    <input {...register("harga",{required:true})} type="number" className="form-control" />
+                    <input {...register("harga",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setHarga(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Brand</label>
-                    <input {...register("brand",{required:true})} type="text" className="form-control" />
+                    <input {...register("brand",{required:true})} type="text" className="form-control" 
+                    onChange={(e)=>setBrand(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Terjual</label>
-                    <input {...register("terjual",{required:true})} type="number" className="form-control" />
+                    <input {...register("terjual",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setTerjual(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Rating</label>
-                    <input {...register("rating",{required:true})} type="number" className="form-control" />
+                    <input {...register("rating",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setRating(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Stock</label>
-                    <input {...register("stock",{required:true})} type="number" className="form-control" />
+                    <input {...register("stock",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setStock(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">minimal pembelian</label>
-                    <input {...register("minPembelian",{required:true})} type="number" className="form-control" />
+                    <input {...register("minPembelian",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setMinimalPembelian(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Nama Toko</label>
-                    <input {...register("nama_toko",{required:true})} type="text" className="form-control" />
+                    <input {...register("nama_toko",{required:true})} type="text" className="form-control" 
+                    onChange={(e)=>setNamaToko(e.target.value)}
+                    />
                 </div>
                 <div className="mt-3">
                     <label className="form-label">Kategori</label>
-                    <select className="form-control"{...register("kategori",{required:true})}>
+                    <select className="form-control"{...register("kategori",{required:true})}
+                    onChange={(e)=>setKategori(e.target.value)}
+                    >
                         {categories.map((item, index) => (
-                            <option value={item.id} key={index}>{item.id}</option>
+                            <option value={item.attributes.nama} key={index}>{item.attributes.nama}</option>
                         ))}
                     </select>
                 </div>
-                <div className="mt-3">
+                {/* <div className="mt-3">
                     <label className="form-label">Promo presentasi</label>
-                    <input {...register("promoPercentage",{required:true})} type="number" className="form-control" />
-                </div>
+                    <input {...register("promoPercentage",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setPromo(e.target.value)}
+                    />
+                </div> */}
                 <div className="mt-3">
                     <label className="form-label">Berat</label>
-                    <input {...register("berat",{required:true})} type="number" className="form-control" />
+                    <input {...register("berat",{required:true})} type="number" className="form-control" 
+                    onChange={(e)=>setBerat(e.target.value)}
+                    />
                 </div>
                 <button type="submit" className="btn btn-primary my-4">Tambah</button>
             </form>
