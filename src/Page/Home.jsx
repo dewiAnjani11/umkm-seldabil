@@ -237,7 +237,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -268,7 +268,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -299,7 +299,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -330,7 +330,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -366,7 +366,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -397,7 +397,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -428,7 +428,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                          <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -459,7 +459,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                          <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -515,7 +515,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -546,7 +546,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -577,7 +577,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -608,7 +608,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -644,7 +644,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -675,7 +675,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -706,7 +706,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -737,7 +737,7 @@ export default function Home() {
                           <h5 className="card-title mb-1">Kopi Jaran Goyang</h5>
                           <p className="card-text mb-1">Promo 50%</p>
                           <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                            <p className='mb-0'>Rp.000000</p>
+                            <p className='mb-0'>Rp.25000</p>
                           </div>
                           <div className='d-flex justify-content-between align-items-center w-25'>
                             <i className="fa-solid fa-star" style={{
@@ -797,7 +797,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -826,7 +826,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -855,7 +855,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -884,7 +884,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -918,7 +918,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -947,7 +947,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -976,7 +976,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1005,7 +1005,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1062,7 +1062,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1091,7 +1091,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1120,7 +1120,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1149,7 +1149,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1183,7 +1183,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1212,7 +1212,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1241,7 +1241,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1270,7 +1270,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Sambel Geprek</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.15000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1330,7 +1330,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1359,7 +1359,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1388,7 +1388,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1417,7 +1417,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1451,7 +1451,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1480,7 +1480,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1509,7 +1509,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1538,7 +1538,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-50 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1595,7 +1595,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1624,7 +1624,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1653,7 +1653,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1682,7 +1682,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1716,7 +1716,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1745,7 +1745,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1774,7 +1774,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1803,7 +1803,7 @@ export default function Home() {
                             <h5 className="card-title mb-1">Steak</h5>
                             <p className="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequuntur.</p>
                             <div className='bg-dark-subtle w-25 rounded-3 d-flex justify-content-center align-items-center text-black fw-bolder py-1 mb-2'>
-                              <p className='mb-0'>Rp.000000</p>
+                              <p className='mb-0'>Rp.25000</p>
                             </div>
                             <div className='d-flex justify-content-between align-items-center w-25'>
                               <i className="fa-solid fa-star" style={{
@@ -1828,7 +1828,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div>
+                {/* <div>
                   <button className="carousel-control-prev justify-content-start align-items-center w-auto" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true" />
                     <span className="visually-hidden">Previous</span>
@@ -1837,7 +1837,7 @@ export default function Home() {
                     <span className="carousel-control-next-icon" aria-hidden="true" />
                     <span className="visually-hidden">Next</span>
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div >

@@ -7,7 +7,8 @@ import { useMediaQuery } from 'react-responsive';
 import axios from 'axios';
 
 const Categories = () => {
-  const catNames = useParams().name
+  const { nameCategory, id } = useParams()
+  console.log(nameCategory)
   const isMobile = useMediaQuery({ maxWidth: 426 })
   const isTablet = useMediaQuery({ maxWidth: 769 })
   const [data, setData] = useState([])
@@ -15,7 +16,7 @@ const Categories = () => {
 
   const getData = async () => {
     try {
-      const resp = await axios.get(`http://localhost:1337/api/produks?populate=*&filters[kategori][nama][$eq]=${catNames}`)
+      const resp = await axios.get(`http://localhost:1337/api/produks?populate=*&filters[kategori][nama][$eq]=${nameCategory}`)
       if (resp.status === 200) {
         setTimeout(() => {
           setData(resp.data.data);
@@ -46,7 +47,7 @@ const Categories = () => {
               <p className='mb-0 text-black-50'>{">"}</p>
               <Link to={'/'} className='text-decoration-none text-black-50'>Kategori</Link>
               <p className='mb-0 text-black-50'>{">"}</p>
-              <Link to={`/category/${catNames}`} className='text-decoration-none text-black-50 text-capitalize'>{catNames}</Link>
+              <Link to={`/category/${nameCategory}`} className='text-decoration-none text-black-50 text-capitalize'>{nameCategory}</Link>
             </div>
 
             <div className='row py-3 mb-1'>
@@ -98,7 +99,7 @@ const Categories = () => {
               <p className='mb-0 text-black-50'>{">"}</p>
               <Link to={'/'} className='text-decoration-none text-black-50'>Kategori</Link>
               <p className='mb-0 text-black-50'>{">"}</p>
-              <Link to={`/category/${catNames}`} className='text-decoration-none text-black-50 text-capitalize'>{catNames}</Link>
+              <Link to={`/category/${nameCategory}`} className='text-decoration-none text-black-50 text-capitalize'>{nameCategory}</Link>
             </div>
 
             <div className='row py-3 mb-1'>
@@ -112,7 +113,7 @@ const Categories = () => {
                 const foto = datas.foto.data
                 return (
                   <div className='col col-2 p-1'>
-                    <Link to={`/details/data/${datas.kategori.data.attributes.nama}/${item.id}`} className='card w-100 shadow border-0 bg-body-tertiary text-decoration-none'>
+                    <Link to={`/category/${nameCategory}/detail/${item.id}`} className='card w-100 shadow border-0 bg-body-tertiary text-decoration-none'>
                       {foto ? (
                         <img src={`http://localhost:1337${foto.attributes.url}`} className="card-img-top w-100 " />
                       ) : (

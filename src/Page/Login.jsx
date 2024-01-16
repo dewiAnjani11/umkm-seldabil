@@ -4,29 +4,24 @@ import { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import axios from 'axios';
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Login = () => {
   const isMobile = useMediaQuery({ maxWidth: 426 })
   const isTablet = useMediaQuery({ maxWidth: 769 })
 
   const passVisibleRef = useRef(null)
-  const eyeRefPass = useRef(null)
-
-  let click1 = 0
-  const passwordVisible1 = () => {
-    click1 += 1
-    eyeRefPass.current.className = "fa-solid fa-eye-slash text-black-50 fs-3"
-    passVisibleRef.current.type = "free"
-    if (click1 === 2) {
-      eyeRefPass.current.className = "fa-solid fa-eye text-black-50 fs-3"
-      passVisibleRef.current.type = "password"
-      click1 = 0
-    }
-  }
+  
 
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [visible, setVisible] = useState(false);
   const navigate = useNavigate()
+
+  const changeTypeInput = (e) => {
+    e.preventDefault();
+    setVisible(!visible);
+  }
 
   const validate = async (e) => {
     e.preventDefault()
@@ -83,23 +78,18 @@ const Login = () => {
                   border: `1px solid ${Colors.green}`
                 }}>
                   <i className="fa-solid fa-lock text-black-50 fs-2 mb-0"></i>
-                  <input onChange={(e) => setPassword(e.target.value)} type="password" placeholder='Password' className='w-100 border-0 px-3 fs-5 text-black-50' style={{
+                                    {/* input password */}
+                                    <input type={`${visible ? "text" : "password"}`} placeholder='Password' className='w-100 border-0 px-3 fs-5 text-black-50' style={{
                     outline: "none"
-                  }} ref={passVisibleRef} />
-                  <i className="fa-solid fa-eye text-black-50 fs-3" onClick={() => {
-                    passwordVisible1()
-                  }} ref={eyeRefPass}></i>
+                  }} ref={passVisibleRef} onChange={(e) => setPassword(e.target.value)} />
+                  {/* button change eye input */}
+                  <button style={{ border: "none", backgroundColor: "transparent" }} onClick={changeTypeInput}>
+                    {visible ? <FaEye size={20} /> : <FaEyeSlash size={20} />}
+                  </button>
                 </div>
                 <button type='submit' className='btn text-white w-50 fs-4 fw-bold rounded-4 my-3' style={{
                   backgroundColor: Colors.green
                 }}>LOGIN</button>
-
-                <div className='w-100 d-flex justify-content-between align-items-center my-2'>
-                  <hr className='w-50 bg-light-subtle me-4' />
-                  <p className='mb-0'>Atau</p>
-                  <hr className='w-50 bg-light-subtle ms-4' />
-                </div>
-                <p className='mb-0'>Belum punya akun? <Link to={'/register'}>Daftar Sekarang</Link></p>
               </form>
             </div>
           </div>
@@ -136,23 +126,18 @@ const Login = () => {
                   border: `1px solid ${Colors.green}`
                 }}>
                   <i className="fa-solid fa-lock text-black-50 fs-2 mb-0"></i>
-                  <input type="password" placeholder='Password' className='w-100 border-0 px-3 fs-5 text-black-50' style={{
+                  {/* input password */}
+                  <input type={`${visible ? "text" : "password"}`} placeholder='Password' className='w-100 border-0 px-3 fs-5 text-black-50' style={{
                     outline: "none"
                   }} ref={passVisibleRef} onChange={(e) => setPassword(e.target.value)} />
-                  <i className="fa-solid fa-eye text-black-50 fs-3" onClick={() => {
-                    passwordVisible1()
-                  }} ref={eyeRefPass}></i>
+                  {/* button change eye input */}
+                  <button style={{ border: "none", backgroundColor: "transparent" }} onClick={changeTypeInput}>
+                    {visible ? <FaEye size={20} /> : <FaEyeSlash size={20} />}
+                  </button>
                 </div>
                 <button type='submit' className='btn text-white w-50 fs-4 fw-bold rounded-4 my-3' style={{
                   backgroundColor: Colors.green
                 }}>LOGIN</button>
-
-                <div className='w-100 d-flex justify-content-between align-items-center my-2'>
-                  <hr className='w-50 bg-light-subtle me-4' />
-                  <p className='mb-0'>Atau</p>
-                  <hr className='w-50 bg-light-subtle ms-4' />
-                </div>
-                <p className='mb-0'>Belum punya akun? <Link to={'/register'}>Daftar Sekarang</Link></p>
               </form>
             </div>
           </div>

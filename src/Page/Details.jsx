@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Header from '../Components/Header';
-  import Colors from '../Components/Colors';
+import Colors from '../Components/Colors';
 import Footer from '../Components/Footer';
 import { useMediaQuery } from 'react-responsive';
 import { useParams } from 'react-router-dom';
@@ -9,15 +9,15 @@ import axios from 'axios';
 const Details = () => {
   const isMobile = useMediaQuery({ maxWidth: 426 })
   const isTablet = useMediaQuery({ maxWidth: 769 })
-  const productId = useParams().id
-  useParams().category
+  const { productId } = useParams()
   const [data, setData] = useState([])
+  console.log(data)
 
-  const getData = async () => {
+  const getProductDetail = async () => {
     try {
-      const resp = await axios.get(`http://localhost:1337/api/produks/${productId}?populate=*`)
-      if (resp.status === 200) {
-        setData([resp.data.data])
+      const res = await axios.get(`http://localhost:1337/api/kategoris/21?populate=*`)
+      if (res.status === 200) {
+        setData(res.data)
       }
     } catch (error) {
       console.log(error)
@@ -25,9 +25,9 @@ const Details = () => {
   }
 
   useEffect(() => {
-    getData()
-    console.log(data)
+    getProductDetail();
   }, [])
+
   return (
     <div>
       <Header />
