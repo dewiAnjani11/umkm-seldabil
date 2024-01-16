@@ -76,19 +76,6 @@ const Header = () => {
                 </div>
               </div>
               <div className='w-25 ps-2 d-flex justify-content-between align-items-center' ref={headerRef1}>
-                {/* <Link to={'/register'} className='btn w-50 mx-1 fw-bolder' ref={registerBtnRef} style={{
-                  background: "transparent",
-                  border: "1px solid #015546",
-                  color: "#015546"
-                }} onMouseOver={(e) => {
-                  e.target.style.background = '#015546';
-                  e.target.style.color = '#ffffff';
-                }}
-                  onMouseOut={(e) => {
-                    e.target.style.background = 'transparent';
-                    e.target.style.color = '#015546';
-                  }}>Daftar</Link> */}
-
                 <Link to={'/login'} className='btn w-50 mx-1 fw-bolder' ref={loginBtnRef} style={{
                   backgroundColor: "#FFC700",
                   color: "#FFFFFF"
@@ -130,8 +117,8 @@ const Header = () => {
                   </form>
                 </div>
               </div>
-              <div className='w-25 ps-2 d-flex justify-content-between align-items-center'>
-                <Link to={'/login'} className='btn w-50 mx-1 fw-bolder' style={{
+              <div className='w-25 d-flex  justify-content-center align-items-center'>
+                <Link to={'/login'} className='btn w-90 h-100 mx-1 fw-bolder' style={{
                   backgroundColor: "#FFC700",
                   color: "#FFFFFF"
                 }} onMouseOver={(e) => {
